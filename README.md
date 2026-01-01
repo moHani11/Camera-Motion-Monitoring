@@ -45,4 +45,23 @@ detector = MotionDetector(
 - `motion_frame_TIMESTAMP.png` - screenshots
 - `optical_flow_TIMESTAMP.png` - flow viz
 
-That's pretty much it.
+---
+# Demo
+
+- No optical flow is detected in a **static frame**
+- Relatively zero motion is detected 
+![alt text](image.png)
+
+---
+
+- By moving an object we can see it appear in the optical flow frame
+- A spike is introduced in the monitor
+- Max motion rises as well 
+![alt text](<Screenshot 2026-01-01 025251.png>)
+
+---
+
+- by vibrating the camera itself, oscillations are introduced
+- **objects** in the frame starts to **stand out**
+![alt text](image-1.png)
+> This can be used for multiple other applications
